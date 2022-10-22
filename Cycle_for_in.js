@@ -18,3 +18,13 @@ const youObject = {
 Object.keys(youObject).forEach((key) => {
   console.log(key, youObject[key]);
 });
+
+const meObject = {
+  x: 10,
+  y: true,
+  z: "abc",
+};
+
+Object.values(meObject).forEach((value) => {
+  console.log(value);
+});
